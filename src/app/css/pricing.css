@@ -1,6 +1,168 @@
+
+
 .pricing{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.pricing-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-div2{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10rem;
+    padding: 0.5rem;
+    background-color: white;
+    width: fit-content;
+}
+.pricing2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+}
+.pricing2-1{
+    padding: 1rem;
+    background-color: #F1F1F3;
+}
+.pricing-heading1{
+    text-align: center;
+    background-color: #FFF9F0;
+    border-radius: 0.1rem;
+    padding: 1rem;
+}
+.pricing-heading2{
+    font-size: 4rem;
+    text-align: center;
+}
+.pricing-span{
+    font-size: 1rem;
+}
+.pricing2-2{
+    background-color: white;
+}
+.pricing-heading3{
+    padding: 1rem;
+    text-align: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    border:#F1F1F3 solid 0.2rem;
+    margin: 1rem;
+    list-style: none;
+    font-size: 1rem;
+    gap: 2rem;
+}
+.check{
+    background-color: #FFF4E5;
+    padding: 0.5rem;
+}
+.price-btn{
+background-color: #FF9500;
+color: white;
+text-align: center;
+width: 100%;
+padding: 1rem;
+border-style: none;
+font-size: 1rem;
+}
+.faqs{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 2rem;
+}
+.faqs-inner1{
+    padding: 2rem;
+}
+.faqs-inner2{
+    padding: 2rem;
+    width: auto;
+}
+.faqs-inner2-1{
+    border:#F1F1F3 solid 0.1rem;
+    width: 100%;
+}
+.faqs-heading1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:4rem;
+    
+    padding: 1rem;
+}
+.faqs-para2{
+    padding: 1rem;
+    border-top: solid 0.1rem #F1F1F3;
+    
+}
+.faqs-heading2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   border-radius: 0.2rem;
+    margin:1rem;
+    padding: 1.5rem;
+    background-color: #F1F1F3;
+}
+.round{
+    border-radius: 50%;
+    background-color: white;
+    padding: 1rem;
+}
+.faqs-inner2-2{
+    width: 100%;
+    border:#F1F1F3 solid 0.1rem;
+    
+    margin-top:1rem;
+  
+}
+.faqs-para{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+@media(max-width:768px) {
+   
+
+   
+
+   
+
+  
+
+    .pricing-inner {
+        display: block;
+    }
+
+    .pricing2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Single column for pricing */
+        padding: 0;
+    }
+
+    .faqs {
+        display: block;
+        padding: 1rem; /* Adjust padding for better fit */
+    }
+
+    .faqs-heading1, .faqs-heading2 {
+        font-size: 1rem;
+        gap: 1rem; /* Space for better readability */
+    }
+
+    .faqs-inner2-2 {
+        width: 100%; /* Full width */
+        border: #F1F1F3 solid 0.1rem;
+        margin-top: 1rem;
+    }
+
+    .faqs-para {
+        padding: 1rem;
+    }
 }
