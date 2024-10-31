@@ -1,0 +1,50 @@
+.footer{
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    padding: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    
+}
+.footer-heading{
+    font-size: 2rem;
+    text-align: center;
+
+}
+.link-1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.link-1:hover{
+    color:#FF9500;
+}
+.link2{
+    color: black;
+}
+.link2:hover{
+    color: #FF9500;
+}
+.list1{
+    list-style: none;
+    padding: 1rem;
+}

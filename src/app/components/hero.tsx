@@ -1,5 +1,5 @@
 import { GiElectric } from 'react-icons/gi';
-import { FaCheckSquare,FaTimes } from 'react-icons/fa';
+import { FaCheckSquare,FaTimes,FaArrowRight,FaPlus } from 'react-icons/fa';
 
 
 import Image from 'next/image';
@@ -236,6 +236,32 @@ export default function Hero(){
             </div>
           </div>
         </div>
+        </div>
+
+        <div className='faqs'>
+        
+              <div className='faqs-inner1'>
+              <h2 className='heading3'>Frequently Asked Questions</h2>
+              <p className='faqs-para'>Still you have any questions? Contact our Team via support@skillbridge.com</p>
+              <button className='btn'>See All FAQ’s</button>
+            </div>
+            <div className='faqs-inner2'>
+              <div className='faqs-inner2-1'>
+                <h2 className='faqs-heading1'>Can I enroll in multiple courses at once?<div className='check'><FaTimes size={20}/></div></h2>
+              <p className='faqs-para2'>Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.</p>
+              <h2 className='faqs-heading2'>Enrollment Process for Different Courses<div className='round'><FaArrowRight size={20}/></div></h2>
+
+              </div>
+              <div className='faqs-inner2-2'>
+              <h2 className='faqs-heading1'>What kind of support can I expect from instructors?<div className='check'><FaPlus size={20}/></div></h2>
+
+              </div>
+
+              <div className='faqs-inner2-2'>
+              <h2 className='faqs-heading1'>Are the courses self-paced or do they have specific start and end dates?<div className='check'><FaPlus size={20}/></div></h2>
+
+              </div>
+            </div>
         </div>
         </div>
     )
