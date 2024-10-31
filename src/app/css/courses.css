@@ -1,0 +1,13 @@
+.courses1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    padding: 2rem;
+    padding-top: 10rem;
+}
+.heading1{
+    font-size: 4rem;
+}
+.para1{
+    font-size: 1rem;
+}

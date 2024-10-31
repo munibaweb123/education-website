@@ -1,0 +1,350 @@
+.hero{
+    height: auto;
+    padding: 1rem;
+    display: block;   
+    padding-top: 10rem;              /* Use flexbox on body for centering */
+      
+}
+.hero1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero1-1{
+   
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: white;
+    
+    width: fit-content;
+    
+}
+
+.spark-icon{
+    background-color: #FFF4E5;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+.heading1{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+.span{
+    color:#FF9500;
+}
+.hero2{
+    display: block;
+    height: 30vh;
+}
+.heading2{
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+.para{
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: white;
+
+}
+.logos-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: auto;
+    height: 4.5rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+    height: 4.5rem;
+    width: 3rem;
+}
+.img{
+
+    height: 100%;
+    border-right:#F1F1F3 solid 0.1rem;
+    border-left:#F1F1F3 solid 0.1rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+.video-div {
+     
+   
+    width: 100%;     /* Full width */
+    height: 100%;    /* Full height */
+    overflow: hidden; /* Prevent overflow */
+    z-index: -1;     /* Send it to the back */
+}
+
+.video {
+    width: 100%;      /* Full width */
+    height: 100%;     /* Full height */
+    object-fit: cover; /* Cover the entire container */
+}
+.benefits{
+    padding: 2rem;
+}
+.heading3{
+    font-size: 2rem;
+}
+.benefits-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.para2{
+ justify-content: flex-start;
+ width: 90%;
+}
+.benefits2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    padding: 1rem;
+}
+.benefits2-inner{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.heading4{
+    text-align: right;
+    font-size: 4rem;
+    
+}
+.heading5{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+}
+.img2{
+    background-color: #F1F1F3;
+    padding: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    color: #FF9500;
+}
+.courses{
+    padding: 2rem;
+}
+.courses-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+}
+.courses2-1{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+.img3-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 50rem;
+    height: 40rem;
+    object-fit: cover;
+  background-color: white;
+   
+  
+
+}
+.heading6{
+    padding-left: 3rem;
+    font-size: 2rem;
+}
+.img3{
+    width: 90%;
+    height: 90%;
+   
+}
+.para3{
+    padding: 3rem;
+}
+.btn3{
+    width: 90%;
+    font-size: 2rem;
+    background-color: #F1F1F3;
+    border: none;
+    padding: 1rem;
+    margin: 3rem;
+}
+.courses2-2{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses2-3{
+    padding: 1rem;
+}
+.btn4{
+    border:#F1F1F3 solid 0.1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #FCFCFD;
+    border-radius: 1rem;
+
+}
+.testimonials{
+    padding: 2rem;
+}
+.testimonials-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testimonials2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    padding: 1rem;
+}
+.testimonials2-1{
+
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+.testimonials2-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.test-div{
+    height: 15rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.test-btn{
+    background-color: #FCFCFD;
+    font-size: 1rem;
+    padding: 2rem;
+    border-radius: 0.2rem;
+    border-style: none;
+    
+}
+.test-btn:hover{
+    background-color: #FF9500;
+    color: #FCFCFD;
+}
+
+/* pricing */
+.pricing{
+    padding: 2rem;
+}
+.pricing-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: white;
+    width: fit-content;
+}
+.pricing2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+}
+.pricing2-1{
+    padding: 1rem;
+    background-color: #F1F1F3;
+}
+.pricing-heading1{
+    text-align: center;
+    background-color: #FFF9F0;
+    border-radius: 0.1rem;
+    padding: 1rem;
+}
+.pricing-heading2{
+    font-size: 4rem;
+    text-align: center;
+}
+.pricing-span{
+    font-size: 1rem;
+}
+.pricing2-2{
+    background-color: white;
+}
+.pricing-heading3{
+    padding: 1rem;
+    text-align: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    border:#F1F1F3 solid 0.2rem;
+    margin: 1rem;
+    list-style: none;
+    font-size: 1rem;
+    gap: 2rem;
+}
+.check{
+    background-color: #FFF4E5;
+    padding: 0.5rem;
+}
+.price-btn{
+background-color: #FF9500;
+color: white;
+text-align: center;
+width: 100%;
+padding: 1rem;
+border-style: none;
+font-size: 1rem;
+}
