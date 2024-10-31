@@ -9,9 +9,9 @@ export default function Footer(){
             <div className="logo">
                 <Image src={"/images/logo.png"} alt="logo" height={100} width={100}/>
             </div>
-            <p className="para"><div><FaEnvelope size={20}/></div>hello@skillbridge.com</p>
-            <p className="para"><div><FaPhone size={20}/></div>+91 91813 23 2309</p>
-            <p className="para"><div><FaMapMarkerAlt size={20}/></div>Somewhere in the World</p>
+            <p className="para"><FaEnvelope size={20}/>hello@skillbridge.com</p>
+            <p className="para"><FaPhone size={20}/>+91 91813 23 2309</p>
+            <p className="para"><FaMapMarkerAlt size={20}/>Somewhere in the World</p>
             </div>
             <div><Link className="link-1" href="/">Home</Link>
             <ul><li className="list1">Benefits</li>

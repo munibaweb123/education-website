@@ -10,7 +10,7 @@ export default function Hero(){
             <div className='hero1'>
             <div className='hero1-1'>
           <div className='spark-icon'>
-          <GiElectric size={50}/>
+          <GiElectric className='icon' size={50}/>
           </div>
           <h1 className='heading1'><span className='span'>Unlock</span> Your Creative Potential</h1>
             </div>

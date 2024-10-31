@@ -1,71 +1,145 @@
-.header{
+.header {
     height: 2rem;
     display: grid;
-   grid-template-rows: repeat(2,1fr);
-   grid-template-columns: auto;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: auto;
     width: auto;
     padding: 1rem;
 }
-.nav{
+
+.nav {
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-.sale-div{
+
+.sale-div {
     display: flex;
     height: 2rem;
-    width:100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     background-color: #FF9500;
     color: white;
     padding: 0.5rem;
 }
-.btn-div{
+
+.btn-div {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.nav-1{
+
+.nav-1 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-.logo{
+
+.logo {
     padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
+    list-style: none;
     align-items: center;
     justify-content: space-around;
-    list-style-type:none;
 }
-.link-list{
+
+.link-list {
     padding: 2rem;
 }
-.link{
+
+.link {
     text-decoration: none;
-    color:black;
-    
+    color: black;
 }
-.link:hover, .btn:hover{
+
+.link:hover,
+.btn:hover {
     background-color: white;
     color: black;
     padding: 1rem;
     border-radius: 0.2rem;
 }
 
-.btn{
+.btn {
     padding: 1rem;
     background-color: #FF9500;
-    color:white;
+    color: white;
     margin-right: 2rem;
     border: none;
     border-radius: 0.25rem;
+}
+
+.menu-icon {
+    display: none; /* Hide menu icon by default */
+    cursor: pointer;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    position: fixed; /* Make it fixed to cover the entire screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding-top: 70px; /* Space for the header */
+    z-index: 10; /* Ensure it appears above other elements */
+    overflow-y: auto; /* Allow scrolling if needed */
+}
+
+.mobile-nav-list {
+    list-style: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+}
+
+.mobile-nav-list li {
+    margin: 1rem 0; /* Spacing between links */
+}
+
+.close-icon {
+    cursor: pointer;
+    font-size: 2rem; /* Adjust size as needed */
+    margin: 1rem; /* Add margin for spacing */
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: none; /* Hide nav list by default on mobile */
+        flex-direction: column; /* Stack items vertically */
+        width: 100%; /* Full width */
+        background-color: white; /* Background color */
+        position: absolute; /* Position to overlay */
+        top: 70px; /* Adjust based on header height */
+        left: 0;
+        z-index: 1; /* Bring to front */
+      
+
+    }
+
+    .nav-list.active {
+        display: flex; /* Show when active */
+       
+    }
+
+    .menu-icon {
+        display: block; /* Show menu icon on mobile */
+        
+    }
+
+    .nav-list {
+        display: none; /* Hide nav list by default on mobile */
+    }
 }

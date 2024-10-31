@@ -48,3 +48,25 @@
     list-style: none;
     padding: 1rem;
 }
+
+@media (max-width: 768px) {
+    .footer {
+        display: block;
+      
+        padding: 1rem; /* Reduce padding on mobile */
+    }
+    
+    .footer-heading {
+        font-size: 1.2rem; /* Adjust heading font size */
+        text-align: center;
+    }
+
+    .link-1,
+    .link2 {
+        font-size: 1.2rem; /* Adjust link font size */
+    }
+
+    .social {
+        gap: 1rem; /* Adjust gap for social icons */
+    }
+}

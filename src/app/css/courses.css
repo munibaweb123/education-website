@@ -11,3 +11,16 @@
 .para1{
     font-size: 1rem;
 }
+@media(max-width:768px){
+    .courses1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        padding: 2rem;
+        padding-top: 10rem;
+    }
+    .heading1{
+        font-size: 2rem;
+    }
+
+}
