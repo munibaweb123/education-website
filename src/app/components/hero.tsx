@@ -159,7 +159,7 @@ export default function Hero(){
             </div>
 
             <div className='testimonials2-1'>
-            <p className='para3'>The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!</p>
+            <p className='para3'>The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I&apos;m now building my own app. Great course!</p>
             <div className='testimonials2-2'>
               <div className='test-div'><Image className='test-img' src={"/images/test/test2.jpg"} alt='testimonial one' height={100} width={100}/>
               <h3>Jason M.</h3>
@@ -168,7 +168,7 @@ export default function Hero(){
             </div>
             </div>
             <div className='testimonials2-1'>
-            <p className='para3'>The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!</p>
+            <p className='para3'>The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I&apos;m now building my own app. Great course!</p>
             <div className='testimonials2-2'>
               <div className='test-div'><Image className='test-img' src={"/images/test/test3.jpg"} alt='testimonial one' height={100} width={100}/>
               <h3>Emily R.</h3>
@@ -177,7 +177,7 @@ export default function Hero(){
             </div>
             </div>
             <div className='testimonials2-1'>
-            <p className='para3'>I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!</p>
+            <p className='para3'>I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor&apos;s guidance and feedback improved my design abilities significantly. I&apos;m grateful for this course!</p>
             <div className='testimonials2-2'>
               <div className='test-div'><Image className='test-img' src={"/images/test/test4.jpg"} alt='testimonial one' height={100} width={100}/>
               <h3>Michael K.</h3>
