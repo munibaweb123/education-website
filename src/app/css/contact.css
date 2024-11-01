@@ -1,5 +1,6 @@
 .contact{
     padding: 1rem;
+    width: 100vw;
 }
 .contact1{
     display: grid;
@@ -89,7 +90,7 @@
     gap: 1rem;
 
 }
-.para2{
+.para-2{
     text-align: center;
 }
 .contact2-2{

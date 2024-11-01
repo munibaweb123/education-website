@@ -49,19 +49,19 @@ export default function Contact(){
                     <div className="contact2-3">
                     <div className="email"><div className="icon"><FaEnvelope size={20}/>
                     </div></div>
-                    <p className="para2">support@skillbridge.com</p>
+                    <p className="para-2">support@skillbridge.com</p>
                     </div>
 
                     <div className="contact2-3">
                     <div className="phone"><div className="icon"><FaPhone size={20}/></div>
                     </div>
-                    <p className="para2">+91 00000 00000</p>
+                    <p className="para-2">+91 00000 00000</p>
                     </div>
 
                     <div className="contact2-3">
                     <div className="location"><div className="icon"><FaMapMarkerAlt size={20}/></div>
                     </div>
-                    <p className="para2">Some Where in the World</p>
+                    <p className="para-2">Some Where in the World</p>
                     </div>
 
                     <div className="contact2-3">
@@ -72,7 +72,7 @@ export default function Contact(){
             </div>
             
             </div>
-            <p className="para2">Social Profiles</p>
+            <p className="para-2">Social Profiles</p>
                     </div>
             </div>
                 </div>

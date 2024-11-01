@@ -8,6 +8,13 @@
     padding: 2rem;
     padding-top: 10rem;
 }
+.heading-about{
+    font-size: 3rem;
+}
+.heading-about2{
+    font-size: 3rem;
+    font-weight: 400;
+}
 .about2{
     display: block;
     padding: 1rem;

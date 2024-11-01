@@ -3,6 +3,7 @@
     padding: 1rem;
     display: block;   
     padding-top: 10rem;              /* Use flexbox on body for centering */
+    width: 100vw;
       
 }
 .hero1{
@@ -38,6 +39,10 @@
     font-size: 3rem;
     text-align: center;
     
+}
+.para-hero{
+    margin: 1rem;
+    text-align: center;
 }
 .span{
     color:#FF9500;
@@ -244,7 +249,7 @@
     padding: 1rem;
 }
 .testimonials2-1{
-display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -405,6 +410,19 @@ font-size: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+@media(max-width:1500px){
+    .logos {
+        height: 3rem; /* Adjust logo size */
+        margin: 0.5rem 0; /* Space between logos */
+    }
+    .benefits2, .courses2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Single column layout */
+        padding: 0;
+    }
+}
+
 @media(max-width:768px) {
     .hero1 {
         display: block;
@@ -445,6 +463,10 @@ font-size: 1rem;
         grid-template-columns: repeat(1, 1fr); /* Single column layout */
         padding: 0;
     }
+    .btn3{
+        width: fit-content;
+        padding: 1rem;
+    }
 
     .courses2-1 {
         width: 100%; /* Full width */
@@ -476,9 +498,11 @@ font-size: 1rem;
     }
 
     .test-div {
+        display: block;
         width: 100%; /* Full width */
         padding: 1rem; /* Add padding for better spacing */
     }
+    
 
     .para3 {
         font-size: 1rem;

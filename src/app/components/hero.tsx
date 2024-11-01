@@ -17,7 +17,7 @@ export default function Hero(){
             </div>
             <div className='hero2'>
                 <h2 className='heading2'>with Online Design and Development Courses.</h2>
-                <p className='para'>Learn from Industry Experts and Enhance Your Skills.</p>
+                <p className='para-hero'>Learn from Industry Experts and Enhance Your Skills.</p>
                 <div className='btn-div'>
                 <button className='btn'>Explore Courses</button>
                 <button className='btn'>View Pricing</button>

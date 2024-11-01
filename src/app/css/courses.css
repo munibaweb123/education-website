@@ -1,3 +1,8 @@
+.courses{
+    width: 100vw;
+    padding: 1rem;
+
+}
 .courses1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -20,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 .courses2-img{
     display: flex;
@@ -82,6 +88,9 @@
         display: block;
 
     }
+    .courses2-2{
+        display: block;
+    }
     .courses2-img{
         display: block;
         
@@ -105,7 +114,7 @@
     }
 
 }
-@media(max-width:1500){
+@media(max-width:1500px){
     .img{
         height: 15rem;
         width: 20rem;

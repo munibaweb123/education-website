@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Courses(){
     return(
-        <div>
+        <div className="courses">
     
             <div className="courses1">
                 <h2 className="heading1">Online Courses on Design and Development</h2>
