@@ -8,6 +8,10 @@
     padding: 2rem;
     padding-top: 10rem;
 }
+.about2{
+    display: block;
+    padding: 1rem;
+}
 
 @media(max-width:768px){
     .about1{
