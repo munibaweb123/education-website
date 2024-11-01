@@ -8,6 +8,104 @@
     padding: 2rem;
     padding-top: 10rem;
 }
+.contact2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    padding: 2rem;
+    background-color: white;
+}
+.contact2-1{
+    padding: 1rem;
+    box-sizing: border-box;
+    border-right: #F1F1F3 solid 0.1rem;
+    width: 100%;
+}
+.form{
+    padding: 2rem;
+}
+.form1{
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+
+    
+    
+    width: 100%;
+}
+.form1-1,.form1-2{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 1rem;
+    
+    
+    
+}
+.form2{
+    margin: 1rem;
+    justify-content: end;
+    display: block;
+}
+.input{
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    background-color:#FCFCFD;
+    border:#F1F1F3 solid 0.1rem;
+}
+.label{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-btn{
+    padding: 1rem;
+    margin: 1rem;
+    
+    border-style: none;
+    background-color: #FF9500;
+}
+.email, .phone, .social, .location{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 2rem;
+    
+}
+.icon, .social-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #F1F1F3;
+    gap: 1rem;
+
+}
+.para2{
+    text-align: center;
+}
+.contact2-2{
+    display: block;
+    
+    
+}
+.contact2-3{
+  margin: 2rem;
+  padding: 2rem;
+    background-color: #FCFCFD;
+    border:#F1F1F3 solid 0.1rem;
+    width: fit-content;
+    border-radius: 0.2rem;
+   
+}
 
 @media(max-width:768px){
     .contact1{
@@ -16,5 +114,8 @@
         grid-template-rows: auto;
         padding: 2rem;
         padding-top: 10rem;
+    }
+    .contact2{
+        display: block;
     }
 }

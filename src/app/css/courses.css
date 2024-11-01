@@ -105,3 +105,15 @@
     }
 
 }
+@media(max-width:1500){
+    .img{
+        height: 15rem;
+        width: 20rem;
+    }
+    .course-heading{
+        font-size: 1.5rem;
+    }
+    .course-heading2{
+        font-size: 3rem;
+    }
+}

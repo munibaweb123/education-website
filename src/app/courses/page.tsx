@@ -64,7 +64,7 @@ export default function Courses(){
                    <button className="course-btn">10 weeks</button>
                    <button className="course-btn">Beginners</button>
                    </div>
-                    <h2 className="course-heading">BBy Sarah Thompson</h2>
+                    <h2 className="course-heading">By Sarah Thompson</h2>
 
                 </div>
                 <div className="courses3">
