@@ -33,7 +33,7 @@
     justify-content: space-between;
     width: auto;
     gap: 2rem;
-    margin: 2rem;
+    
 }
 .courses2-img{
     display: flex;
@@ -123,6 +123,7 @@
     }
     .courses2-imgs{
         display: block;
+        margin: 0;
         
     }
     .img{
