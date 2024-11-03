@@ -16,10 +16,13 @@ export default function Courses(){
                     <p className="course-para">Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.</p>
                 <button className="course-btn">View Course</button>
                 </div>
-                <div className="courses2-img">
-                    <Image className="img" src={"/images/courses/web1.jpg"} alt="web design" width={1000} height={1000}/>
-                    <Image className="img" src={"/images/courses/web2.jpg"} alt="web design" width={1000} height={1000}/>
-                    <Image className="img" src={"/images/courses/web3.jpg"} alt="web design" width={1000} height={1000}/>
+                <div className="courses2-imgs">
+                    <div className="courses2-img"> <Image className="img" src={"/images/courses/web1.jpg"} alt="web design" width={1000} height={1000}/>
+                    </div>
+                    <div className="courses2-img"><Image className="img" src={"/images/courses/web2.jpg"} alt="web design" width={1000} height={1000}/>
+                    </div>
+                    <div className="courses2-img"> <Image className="img" src={"/images/courses/web3.jpg"} alt="web design" width={1000} height={1000}/>
+                    </div>
 
                 </div>
                 <div className="courses2-2">
@@ -53,11 +56,13 @@ export default function Courses(){
                     <p className="course-para">Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.</p>
                 <button className="course-btn">View Course</button>
                 </div>
-                <div className="courses2-img">
-                    <Image className="img" src={"/images/courses/graphic1.jpg"} alt="web design" width={1000} height={1000}/>
-                    <Image className="img" src={"/images/courses/graphic2.jpg"} alt="web design" width={1000} height={1000}/>
-                    <Image className="img" src={"/images/courses/graphic3.jpg"} alt="web design" width={1000} height={1000}/>
-
+                <div className="courses2-imgs">
+                    <div className="courses2-img"><Image className="img" src={"/images/courses/graphic1.jpg"} alt="web design" width={1000} height={1000}/>
+                    </div>
+                    <div className="courses2-img"><Image className="img" src={"/images/courses/graphic2.jpg"} alt="web design" width={1000} height={1000}/>
+                    </div>
+<div className="courses2-img"> <Image className="img" src={"/images/courses/graphic3.jpg"} alt="web design" width={1000} height={1000}/>
+</div>
                 </div>
                 <div className="courses2-2">
                    <div className="course-btn-div">

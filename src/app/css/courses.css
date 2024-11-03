@@ -27,13 +27,18 @@
     justify-content: space-between;
     width: 100%;
 }
-.courses2-img{
+.courses2-imgs{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: auto;
     gap: 2rem;
     margin: 2rem;
+}
+.courses2-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .img{
     height: 25rem;
@@ -90,7 +95,7 @@
         grid-template-columns: repeat(2,1fr);
        
     }
-    .courses2-img{
+    .courses2-imgs{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: auto;
@@ -116,7 +121,7 @@
     .courses2-2{
         display: block;
     }
-    .courses2-img{
+    .courses2-imgs{
         display: block;
         
     }
