@@ -69,7 +69,7 @@ export default function About(){
        </div>
        <div className="about3">
         <div className="about3-1">
-        <h3 className="heading-about3"><span className="span">Together</span>, let's shape the future of digital innovation</h3>
+        <h3 className="heading-about3"><span className="span">Together</span>, let&apos;s shape the future of digital innovation</h3>
         <button className="about-btn">Join Now</button>
         </div>
        <p className="para-about2">Join us on this exciting learning journey and unlock your potential in design and development.</p>
