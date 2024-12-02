@@ -116,6 +116,10 @@
 }
 
 @media (max-width: 768px) {
+    .sale-div{
+        display: block;
+        height: auto;
+    }
     .nav-list {
         display: none; /* Hide nav list by default on mobile */
         flex-direction: column; /* Stack items vertically */
