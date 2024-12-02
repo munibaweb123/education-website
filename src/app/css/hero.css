@@ -426,7 +426,7 @@ font-size: 1rem;
 @media(max-width:768px) {
     .hero1 {
         display: block;
-        padding: 1rem; /* Added padding for better spacing */
+        padding: 0; /* Added padding for better spacing */
     }
    
     .spark-icon {
@@ -453,7 +453,6 @@ font-size: 1rem;
         height: 2rem; /* Adjust logo size */
         margin: 0.5rem 0; /* Space between logos */
     }
-
     .benefits-inner, .courses-inner {
         display: block; /* Stack benefits and courses vertically */
     }

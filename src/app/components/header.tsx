@@ -5,6 +5,7 @@ import Link from "next/link";
 import "../css/header.css";
 import { AiOutlineArrowRight, AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
+
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -40,8 +41,8 @@ export default function Header() {
                     </ul>
                 </nav>
                 <div className="btn-div">
-                    <button className="btn">Sign Up</button>
-                    <button className="btn">Login</button>
+                    <button className="btn"><Link href={"/signup"}>Sign Up</Link></button>
+                    <button className="btn"><Link href={"/login"}>Login</Link></button>
                 </div>
             </div>
 
