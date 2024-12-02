@@ -465,21 +465,28 @@ font-size: 1rem;
     .btn3{
         width: fit-content;
         padding: 1rem;
+        font-size: 1rem;
+    }
+    .btn4{
+        font-size: 1rem;
     }
 
     .courses2-1 {
-        width: 100%; /* Full width */
+        width: 20rem; /* Full width */
         padding: 0.5rem; /* Slight padding for breathing space */
         margin: 0; /* Reset margin */
     }
 
     .img3-div {
-        width: 100%; /* Full width */
+        width: 20rem; /* Full width */
         height: auto; /* Maintain aspect ratio */
     }
 
     .testimonials-inner {
         display: block;
+        width: 20rem;
+        margin: 0;
+        padding: 0;
     }
 
     .testimonials2 {
